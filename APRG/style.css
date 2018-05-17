@@ -45,7 +45,6 @@ a:hover, a:active {
 }
 
 .mainheader nav ul li {
-    float: left;
     display: inline;
 }
 
@@ -67,8 +66,8 @@ a:hover, a:active {
     -webkit-border-radius: 5px;
 }
 
-.main{
-    line-height: : 25px;
+.main {
+    line-height: 25px;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -99,6 +98,12 @@ a:hover, a:active {
 .post-info {
     font-style: italic;
     color: #999;
+    font-size: 90%
+}
+
+.reg-info {
+    font-style: italic;
+    color: rgb(0, 0, 0);
     font-size: 90%
 }
 
@@ -151,7 +156,7 @@ a:hover, a:active {
 
 footer p {
     width: 92%;
-    margin: 10px; auto;
+    margin: 10px auto;
     color: #FFF;
 }
 
